@@ -7,14 +7,18 @@ To test locally:
 1. cd STRIPEBILLING 
 2. ruby server.rb
 
-## Test Numbers
+## Testing 
 | Number | Description | 
 | ----------- | ----------- |
 | 4242 4242 4242 4242 | Succeeds and immediately processes the payment. |
 | 4000 0000 0000 3220 | 3D Secure 2 authentication must be completed for a successful payment. |
 | 4000 0000 0000 9995 | Always fails with a decline code of insufficient_funds. |
 
-Apple and Google Pay is available with Stripe Checkout, but further setup is required through Stripe settings
+- Any CVC can be used
+- Any EXP date in the future
+- Any Zipcode 
+
+- Apple and Google Pay is available with Stripe Checkout, but further setup is required through Stripe settings
 
 
 
