@@ -7,7 +7,7 @@ require 'sinatra'
 Stripe.api_key = 'sk_test_51Hr7x2GU7qXZje79CcVjiiXBGSZlbEE6tYibP4xkYOGripUXcD1QIk9FiGELBFMcSpmNADEz3SF5hDIMEXuBZ9EW00LhJOuEcz'
 
 set :static, true 
-set :public_folder, "../client"
+set :public_folder, "./client"
 set :port, 3000
 
 #YOUR_DOMAIN = 'http://localhost:3000'
