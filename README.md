@@ -1,5 +1,5 @@
 # Pandia Health 
-## Test project to test out Stripe Check out
+## Test project to test out Stripe Hosted Check Out with Ruby and Sinatra
 
 [Live Test](https://pandiahealth.herokuapp.com)
 
